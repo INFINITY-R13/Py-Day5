@@ -1,7 +1,9 @@
 fruits = ['Apple', 'Mango', 'Banana']
 
+# Loop through each fruit in the list
 for fruit in fruits:
-    print(fruit)
-    print(fruit + "pie")
+    print(fruit)            # Print the fruit name
+    print(fruit + " pie")   # Print fruit name followed by " pie"
 
-print(fruits)  
+# Print the entire list after the loop
+print(fruits)

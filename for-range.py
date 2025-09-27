@@ -1,19 +1,15 @@
+# Print numbers from 1 to 9
 for number in range(1, 10):
     print(number)
 
-print("\n")
+print()  # Blank line for separation
 
-for odd in range(1,10,2):
-    print(odd) 
- 
-print("\n")
+# Print odd numbers from 1 to 9
+for odd_number in range(1, 10, 2):
+    print(odd_number)
 
-total = 0
-for i in range(1, 101):
-    total += i
-print(total)  
+print()  # Blank line for separation
 
-
-
-
-
+# Calculate and print the sum of numbers from 1 to 100
+total = sum(range(1, 101))
+print(f"Total sum from 1 to 100 is: {total}")
